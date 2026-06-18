@@ -1,6 +1,5 @@
 import streamlit as st
-import google.generativeai as genai
-
+from google import genai
 # 1. DIRECT API KEY CONFIGURATION
 GEMINI_API_KEY = "AQ.Ab8RN6JKnI3Ne0nq0bJmjkbszo93wkmzL9SaBjhgyOlYzYHYzw"
 genai.configure(api_key=GEMINI_API_KEY)
