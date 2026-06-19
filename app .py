@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Gemini
-genai.configure(api_key="AQ.Ab8RN6JKnI3Ne0nq0bJmjkbszo93wkmzL9SaBjhgyOlYzYHYzw")
+genai.configure(api_key="AQ.Ab8RN6K-ke_wsoU24mUsRD8dXtKmaztXoe1Dr3mic7AdiX-nNQ")
 # Page config
 st.set_page_config(
     page_title="MindBuddy: Student AI Companion",
