@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Gemini
-genai.configure(api_key=st.secrets["AQ.Ab8RN6JKnI3Ne0nq0bJmjkbszo93wkmzL9SaBjhgyOlYzYHYzw"])
+genai.configure(api_key=st.secrets["AQ.Ab8RN6J-3Gj3FDi2cJ1QrXkpmFH4SNMkgarViG0m-ODTYqIuOw"])
 
 # Page config
 st.set_page_config(
